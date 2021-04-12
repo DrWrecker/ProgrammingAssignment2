@@ -1,4 +1,4 @@
-## A pair of functions that calculates and caches the inverse of a matrix
+## A pair of functions which calculates and caches the inverse of a matrix
 ## as needed
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
   #returns a list of functions
 }
 
-## Check to see if inverse matrix has been calc'd, if so send message
+## Check to see if inverse matrix has been calc'd, if so, send message
 ## Else calc inverse, cache inverse and return inverse
 
 cacheSolve <- function(x, ...) {
